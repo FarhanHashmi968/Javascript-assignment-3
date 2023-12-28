@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>
+        =>What are the differences between var, let and const ?
+    </h1>
+    <h3>So var, let and const are keywords used to declare and initialize variables. Variables are basically container
+        used to store any type of data. The basic difference between var, let and const is with <b>var</b> keyword we
+        can
+        re-declare and re-initialise same variable again and again. Ex- <br>var a=20;<br>var a=100;<br>var
+        a=1000;<br><br>
+        But with <b>let</b> we can declare a variable only once and not again and again but we re-assign the same
+        variable
+        again and again.Ex- <br>let a = 20;<br>a = 100;<br>a = 1000;<br><br>And in <b>const</b> we can declare and
+        assign
+        the value
+        only once. We cannot re-declare and re-assign the variable. Also in const we have to initialize the variable and
+        declare the variable in the same line. Ex-<br>const a = 100;
+    </h3>
+    <h1>
+        =>What are the differences between null and undefined and where to use what?
+    </h1>
+    <h3>In javascript, both undefined and null represent the absence of a meaningful value, but they are used in
+        slightly different contexts. <br>Undefined - When a variable is declared but not initialized and if we try to
+        console the variable it will return undefined. For ex- <br> let a; <br>console.log(a); //it will return
+        undefined. <br><br>Null - It is an assignment used to represent the absence of any value.It is done explicitly
+        to indicate the variable should have no value. It is done for future like if we want to store some value in it
+        by running some other code. <br>let a = null;
+    </h3>
+    <h1>
+        =>What are the uses of prompt in javascript ?
+    </h1>
+    <h3>Prompt() method is used to display a dialog box with an optional message prompting the user to input some text.
+        It is often used if the user wants to input a value before entering a page. It shows in the starting when
+        browser loads the page. It return a string containing the text enterd by the user, or null. <br>Syntax-
+        prompt(message, default); <br>message - It is a string of text to display to the user. <br>default - it is a
+        string containing the default value displayed in the text field. <br>Ex- let a = prompt("Enter a value");
+    </h3>
+    <h1>
+        =>Why javascript is a dynamic language? Write the code for all data types ?
+    </h1>
+    <h3>
+        javascript is dynamic bacause the language is scarily flexible. Unlike other programming languages in javascript
+        we don't have to assign a datatype to a variable , variables are not strictly integers, floats, booleans ,
+        strings or null. In javascript we can again and again give different datatypes to the same variable. For ex-
+        <br> let a = 6; //integer typedata <br>a = "javascript" //string datatype <br>a = false //boolean datatype.
+        <br>Secondly in other programming languages compiler will review the source code and scan for errors prior to
+        executing the code, but in javascript it will execute the code and locate the errors during runtime only. Like
+        javascript runs code after every line and stops when you get an error. This helps programmers to find bugs and
+        errors easily while writing the code and saves a lot of time. These things makes javascript dynamic in nature.
+        <br>So basically there are two type of datatypes present in Javascript. 1. Primitive Data Type 2. Non-primitive
+        Data Type. <br>
+        Primitive Datatype consist of 5 different data type mainly- 1. Number----let a = 23; <br> 2. String----let a =
+        "I am a string"<br> 3. Boolean-----let a = true/false; <br>4. Undefined----let a; <br> 5. Null----let a = null;
+        <br>Non-primitive datatype consist of 3 different data type named- 1. Object---{key : value} <br> 2.
+        Array----[23, 45, 86] <br>3. Function---function a(){}
+    </h3>
+    <h1>
+        =>What are the uses of javascript operators?
+    </h1>
+    <h3>
+        JavaScript operators operate the operands, these are symbols that are used to manipulate a certain value or
+        operand. Operators are used to performing specific mathematical and logical computations on operands. <br>In
+        JavaScript, operators are used to compare values, perform arithmetic operations, etc <br><br>JavaScript
+        Operators: There are various operators supported by JavaScript. <br>JavaScript Arithmetic Operators-----+, -, %,
+        *, /<br>JavaScript Assignment Operators---=, +=, -=, *=, /= <br>JavaScript Comparison Operators----==, ===, !=,
+        !==, >, <,>=, <= <br>JavaScript Logical Operators----&&, ||, ! <br>JavaScript Ternary Operators---? ex- y = ? A:
+                B <br>JavaScript Comma Operators-----, <br>JavaScript String Operators----+ Ex- str1 + str2
+    </h3>
+    <h1>
+        =>Explain the Assignment operators?
+    </h1>
+    <h3>
+        Assignment operators are operators used to assign values to the variable.<br>In JavaScript, operators are used
+        to compare values, perform arithmetic operations, etc <br><br>JavaScript Assignment Operators---=, +=, -=, *=,
+        /= <br>
+        For ex- let a = "javascript" //javascript value assigned to variable a.<br>let a += "javascript" //javascript
+        value assigned to already available a value using concatenation. like a = a + "javascript";<br>let a -=
+        "javascript" //this means a = a - "javascript" <br>let a *= "javascript" //this means a = a * "javascript" <br>
+    </h3>
+    <h1>
+        =>Explain the Arithmetic operators?
+    </h1>
+    <h3>
+        Arithmetic operators are operators used to do mathematical operations to the variable.<br>In JavaScript,
+        operators are used to compare values, perform arithmetic operations, etc <br><br>JavaScript Arithmetic
+        Operators-----+, -, %, *, /<br>
+        For ex- let a = 2 + 3 //it will give reult a = 5<br>let a = 3 - 2 //it will give reult a = 1<br>let a 3 % 2 //it
+        will give the remainder of the two operands i.e 1<br>let a 4 / 2 // it is used generally divide the two operands
+        i.e 2<br>
+    </h3>
+    <h1>
+        =>What are Binary operators in javascript ?
+    </h1>
+    <h3>
+        A binary operator is an operator that operates on two operands and manipulates them to return a result..
+        <br>Binary operators are presented in the form: Operand1 Operator Operand2<br><br>Some common binary operators
+        in computing include: <br>
+        Equal (==) <br>Not equal (!=) <br>Less than (<) <br>Greater than (>) <br>Greater than or equal to (>=) <br>Less
+            than or equal to (<=) <br>Logical AND (&&) <br>Logical OR (||) <br>Plus (+) <br>Minus (-) <br>Multiplication
+                (*) <br>Divide (/)
+    </h3>
+    <h1>
+        =>Explain the Pre-increment and Post-increment in JavaScript.
+    </h1>
+    <h3>
+        The increment(++) operator increments i.e adds one to its operands and returns the value before or after the
+        increment, depending on where the operator is placed. <br><br> Post-increment--In this case, operator is placed
+        after operand(x++), the increment operator increments and returns the value before incrementing. Ex- <br>let x =
+        3;<br>
+        let y = x++; <br>console.log(x) //it will give output 4 <br>console.log(y) //it will give output 3<br><br>
+        Pre-increment--In this case, operator is placed before operand(++x), the increment operator increments and
+        returns the value after incrementing. Ex- <br>let x = 3;<br>
+        let y = ++x; <br>console.log(x) //it will give output 4 <br>console.log(y) //it will give output 4.
+    </h3>
+    <h1>
+        =>Difference between "==" and "===" operators.
+    </h1>
+    <h3>
+        These are comparison operators. They are used to compare two operands. <br>In Javascript, the ‘==’ operator is
+        also known as the loose equality operator which is mainly used to compare two values on both sides and then
+        return true or false. Ex- <br>console.log(21 == 21); //true <br>console.log(21 == '21'); //true
+        <br>console.log('food is love'=='food is love'); //true <br>console.log(21 == 32); //false <br>console.log(21 ==
+        '32'); //false <br><br>JavaScript ‘===’ operator, also known as strict equality operator, it compares both the
+        value and the type which is why the name “strict equality”. Ex- <br>console.log('hello world' === 'hello
+        world'); //true <br>console.log(true === true); //true <br>console.log(5 === 5); //true <br>console.log(true ===
+        1); //false <br>console.log(true === 'true'); //false <br>console.log(5 === '5'); //false.
+    </h3>
+
+    <script src="/index.js"></script>
+</body>
+
+</html>
