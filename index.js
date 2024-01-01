@@ -7,31 +7,31 @@
 // Your friend will enter his marks out of 50, and your task is to print his grades using a switch statement.
 
 
-// let marks = parseInt(prompt("Enter your no. out of 50"));
-// let grade;
+let marks = parseInt(prompt("Enter your no. out of 50"));
+let grade;
 
-// switch (true) {
-//     case marks >= 41 && marks <= 50:
-//         grade = "A";
-//         break;
-//     case marks >= 31 && marks <= 40:
-//         grade = "B";
-//         break;
-//     case marks >= 21 && marks <= 30:
-//         grade = "C";
-//         break;
-//     case marks >= 11 && marks <= 20:
-//         grade = "D";
-//         break;
-//     case marks >= 0 && marks <= 10:
-//         grade = "E";
-//         break;
+switch (true) {
+    case marks >= 41 && marks <= 50:
+        grade = "A";
+        break;
+    case marks >= 31 && marks <= 40:
+        grade = "B";
+        break;
+    case marks >= 21 && marks <= 30:
+        grade = "C";
+        break;
+    case marks >= 11 && marks <= 20:
+        grade = "D";
+        break;
+    case marks >= 0 && marks <= 10:
+        grade = "E";
+        break;
 
-//     default:
-//         grade = "Please Enter a genuine no."
-//         break;
-// }
-// console.log(grade);
+    default:
+        grade = "Please Enter a genuine no."
+        break;
+}
+console.log(grade);
 
 // 2. Get Value => You are provided with a table containing some characters and their corresponding values. Your task will be to find the value from the 
 // table corresponding to an input character and return it.
@@ -88,27 +88,27 @@
 // 4. Second Smallest => You are given integers X, Y and Z and your task is to find and return the second smallest integer among the three provided integers
 
 
-let x = parseInt(prompt("Enter 1st no."))
-let y = parseInt(prompt("Enter 2nd no."))
-let z = parseInt(prompt("Enter 3rd no."))
+// let x = parseInt(prompt("Enter 1st no."))
+// let y = parseInt(prompt("Enter 2nd no."))
+// let z = parseInt(prompt("Enter 3rd no."))
 
-if (x != y && y != z && z != x) {
+// if (x != y && y != z && z != x) {
 
 
-    if ((x < y && x > z) || (x > y && x < z)) {
-        console.log(x + " is the second largest")
-    }
-    else if ((y > z && y < x) || (y > x && y < z)) {
-        console.log(y + " is the second largest")
-    }
-    else if ((z > y && z < x) || (z < y && z > x)) {
-        console.log(z + " is the second largest")
-    }
+//     if ((x < y && x > z) || (x > y && x < z)) {
+//         console.log(x + " is the second largest")
+//     }
+//     else if ((y > z && y < x) || (y > x && y < z)) {
+//         console.log(y + " is the second largest")
+//     }
+//     else if ((z > y && z < x) || (z < y && z > x)) {
+//         console.log(z + " is the second largest")
+//     }
 
-}
-else {
-    console.log("Please enter unequal no.")
-}
+// }
+// else {
+//     console.log("Please enter unequal no.")
+// }
 
 
 
