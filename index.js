@@ -104,9 +104,6 @@ if (x != y && y != z && z != x) {
     else if ((z > y && z < x) || (z < y && z > x)) {
         console.log(z + " is the second largest")
     }
-    else {
-        console.log("No")
-    }
 
 }
 else {
