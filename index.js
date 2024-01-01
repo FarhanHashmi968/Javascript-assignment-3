@@ -88,43 +88,33 @@
 // 4. Second Smallest => You are given integers X, Y and Z and your task is to find and return the second smallest integer among the three provided integers
 
 
-// let x = parseInt(prompt("Enter 1st no."))
-// let y = parseInt(prompt("Enter 2nd no."))
-// let z = parseInt(prompt("Enter 3rd no."))
-// let output;
+let x = parseInt(prompt("Enter 1st no."))
+let y = parseInt(prompt("Enter 2nd no."))
+let z = parseInt(prompt("Enter 3rd no."))
 
-// if (x != y && y != z && z != x) {
-//     switch (true) {
-//         case ((x < y && x > z) && (x > y && x < z)):
-//             output = x + " is the second largest"
-//             break;
-//         case  ((y > z && y < x) && (y > x && y < z)):
-//             output = y + " is the second largest"
-//             break;
-//         case  ((z > y && z < x) && (z < y && z > x)):
-//             output = z + " is the second largest"
-//             break;
-//         default:
-//             output = "Please Enter value between P, Z, E, D"
-//             break;
-//     }
+if (x != y && y != z && z != x) {
 
-// console.log(output)
 
-//     //     if ((x < y && x > z) && (x > y && x < z)) {
-//     //         console.log(x + " is the second largest")
-//     //     }
-//     //     else if ((y > z && y < x) && (y > x && y < z)) {
-//     //         console.log(y + " is the second largest")
-//     //     }
-//     //     else if ((z > y && z < x) && (z < y && z > x)) {
-//     //         console.log(z + " is the second largest")
-//     //     }
+    if ((x < y && x > z) || (x > y && x < z)) {
+        console.log(x + " is the second largest")
+    }
+    else if ((y > z && y < x) || (y > x && y < z)) {
+        console.log(y + " is the second largest")
+    }
+    else if ((z > y && z < x) || (z < y && z > x)) {
+        console.log(z + " is the second largest")
+    }
+    else {
+        console.log("No")
+    }
 
-// }
-// else {
-//     console.log("Please enter unequal no.")
-// }
+}
+else {
+    console.log("Please enter unequal no.")
+}
+
+
+
 
 // 5.  Check whether the triangle is Acute or Obtuse =>Write a program takes takes three angles and checks whether the triangle is acute or obtuse.
 
